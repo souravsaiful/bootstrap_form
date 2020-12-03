@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/syle.css">
+   <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>form bt</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="mb-3">
+        <label for="f_name" class="form-label">First name</label>
+        <input type="text" name="f_name" id="f_name" class="f_name form-control" placeholder="Enter your first name" disabled="">
+        <div id class="form-text">its secured</div>
+       </div>
+
+        <div class="mb-3">
+        <label for="f_name" class="form-label">First name</label>
+        <input type="text" name="f_name" id="f_name" class="f_name form-control" placeholder="Enter your first name" >
+        <div id class="form-text">its secured</div>
+       </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    
+form text
+
+<div class="container">
+  <form>
+  <div class="row align-items-center g-3">
+    <div class="col-auto">
+      <label for="password" class="form-label">Password</label>
+    </div>
+    <div class="col-auto">
+      <input type="password" name="password" id="password" class=" form-control password">
+    </div>
+    <div class="col-auto">
+      <div class="form-text">Must be 8 to 20 characters</div>
+    </div>
+
+  </div>
+  </form>
+</div>
+<br>
+
+<div class="container">
+  <form>
+    <fieldset disabled="">
+  <div class="row align-items-center g-3">
+    <div class="col-auto">
+      <label for="password" class="form-label">Password</label>
+    </div>
+    <div class="col-auto">
+      <input type="password" name="password" id="password" class=" form-control password">
+    </div>
+    <div class="col-auto">
+      <div class="form-text">Must be 8 to 20 characters</div>
+    </div>
+
+  </div>
+  </fieldset>
+  </form>
+</div>
+
+<br>
+form controls
+
+ <div class="container">
+      <form>
+       
+        <div class="mb-3">
+        <label for="f_name" class="form-label">First name</label>
+
+        <textarea class="form-control " id="f_name" rows="3"></textarea>
+
+        <div  class="form-text">its secured</div>
+       </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+    </div>
+    
+     <div class="container">
+      <form>
+        
+        <div class="mb-3">
+        <label for="f_name" class="form-label">First name</label>
+        <input type="text" name="f_name" id="f_name" class="f_name form-control form-control-lg" name="f_name" placeholder="Enter your first name" >
+        <div id class="form-text">its secured</div>
+       </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+        <div class="mb-3">
+              <label for="Input1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="Input1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="Textarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+            </div>
+
+
+            <label for="abc" class="form-label">hk</label>
+            <input type="file" name="abc" id="abc" class=" form-control abc" >
+            <br>
+
+
+            <label for="clr" class="form-label">color picker</label>
+            <input type="color" name="clr" id="clr" class="form-control form-control-color clr" value="563d7c">
+            <br>
+
+
+             <label for="cld" class="form-label">color picker</label>
+            <input list="datalistOptions" name="cld" id="cld" class="form-control" placeholder="type to search.">
+            <datalist id="datalistOptions">
+              <option value="mymensingh">
+              <option value="bogra">
+              <option value="ctg">
+              <option value="dhaka">
+
+            </datalist>
+      </form>
+    </div>
+    
+    select
+
+    <div class="container">
+      <form>
+     
+        <select class="form-select" >
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="4">four</option>
+
+        </select>
+      
+      </form>
+    </div>
+
+    <br>
+
+    <div class="container">
+      <select class="form-select form-select-lg">
+         <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="4">four</option>
+
+      </select>
+    </div>
+    <br>
+
+    <select class="form-select"  multiple >
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+<br>
+<select class="form-select" size="3" aria-label="size 3 select example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+
+checkbox
+<br>
+
+<div class="container">
+  <form>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" name="f_check" id="f_check">
+      <label for="f_check" class="form-check-label">check box</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" name="f_check1" id="f_check1" disabled="">
+      <label for="f_check1" class="form-check-label">check box</label>
+    </div>
+  </form>
+</div>
+
+Radio
+
+<div class="container">
+  <form>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="flexRadioDefault" id="f_check3">
+      <label for="f_check3" class="form-check-label">radio</label>
+    </div>
+
+     <div class="form-check">
+      <input type="radio" class="form-check-input" name="flexRadioDefault" id="f_check5">
+      <label for="f_check5" class="form-check-label">radio</label>
+    </div>
+
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="flexRadioDefault" id="f_check4" disabled="">
+      <label for="f_check4" class="form-check-label">radio</label>
+    </div>
+  </form>
+</div>
+
+switch
+
+<div class="container">
+  <form>
+     <div class="form-check form-switch">
+      <input type="checkbox" class="form-check-input" name="switch1" id="switch1">
+      <label for="switch1" class="form-check-label">check box</label>
+    </div>
+
+     <div class="form-check form-switch">
+      <input type="checkbox" class="form-check-input" name="switch2" id="switch2">
+      <label for="switch2" class="form-check-label">check box</label>
+    </div>
+  </form>
+</div>
+
+generally checkbox ,radio,switch are block..
+lets make inline
+<div class="container">
+  <form>
+     <div class="form-check form-check-inline">
+      <input type="checkbox" class="form-check-input" name="f_check" id="f_check">
+      <label for="f_check" class="form-check-label">check box</label>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input type="checkbox" class="form-check-input" name="f_check1" id="f_check1" >
+      <label for="f_check1" class="form-check-label">check box</label>
+    </div>
+<br>
+     <div class="form-check form-check-inline">
+      <input type="radio" class="form-check-input" name="flexRadioDefault" id="f_check3">
+      <label for="f_check3" class="form-check-label">radio</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+      <input type="radio" class="form-check-input" name="flexRadioDefault" id="f_check5">
+      <label for="f_check5" class="form-check-label">radio</label>
+    </div>
+  </form>
+</div>
+
+toggle button'
+
+<div class="container">
+  <form >
+
+    <div class="mb-3">
+    <input type="checkbox" class="btn-check" id="toggle" name="">
+    <label  class="btn btn-primary" for="toggle"> toggle button</label>
+    </div>
+
+    
+    <div class="mb-3">
+    <input type="checkbox" class="btn-check" id="toggle1" name="">
+    <label  class="btn btn-primary" for="toggle1"> toggle button</label>
+    </div>
+
+    <br>
+
+    <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+<label class="btn btn-secondary" for="option1">Checked</label>
+
+<input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+<label class="btn btn-secondary" for="option2">Radio</label>
+
+<input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" disabled>
+<label class="btn btn-secondary" for="option3">Disabled</label>
+
+<input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+<label class="btn btn-secondary" for="option4">Radio</label>
+  </form>
+</div>
+
+outline style
+
+<div class="container">
+  <form>
+    <label for="btn-check-outlined" class="btn btn-outline-primary"> outline primary</label>
+    <input type="checkbox" name="" id="btn-check-outlined" class="btn-check"><br><br>
+
+    <label for="outline1" class="btn btn-outline-danger"> outline primary</label>
+    <input type="radio"  id="outine1" class="btn-check" name="options-outlined" checked>
+
+    <label for="outline2" class="btn btn-outline-success"> outline primary</label>
+    <input type="radio"  id="outine2" class="btn-check" name="options-outlined">
+  </form>
+</div>
+
+range
+
+<div class="container">
+  <form>
+    <label for="range1" class="form-label"></label>
+    <input type="range" class="form-range" id="range1" min="0" max="5" step="0.5">
+  </form>
+</div>
+
+input group
+
+<div class="container">
+  <form>
+    <div class="input-group">
+      <span class="input-group-text">@</span>
+      <input type="text" class="form-control" placeholder="username" name="">
+    </div>
+
+     <label for="username" class="form-label">Username</label>
+     <div class="input-group mb-3">
+     
+      <input type="text" class="form-control" id="username" placeholder="recepients username" name="">
+      <span class="input-group-text">@example.com</span>
+    </div>
+
+    <div class="input-group flex-nowrap mb-3">
+  <span class="input-group-text" id="addon-wrapping">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+
+<div class="input-group input-group-lg">
+  <span class="input-group-text" id="addon-wrapping">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-text">
+    <input type="checkbox" class="form-check-input" name="">
+  </div>
+  <input type="text" class="form-control" id="username" placeholder="recepients username" name="">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-text">
+    <input type="radio" class="form-check-input" name="">
+  </div>
+  <input type="text" class="form-control" id="username" placeholder="recepients username" name="">
+</div>
+
+button
+
+<div class="input-group mb-3">
+  <button type="button" class="btn btn-outline-danger">Button</button>
+  <input type="text" class="form-control"  placeholder="recepients username" name="">
+</div>
+
+<div class="input-group mb-3">
+  <button type="button" class="btn btn-outline-danger">Button</button>
+  <input type="text" class="form-control"  placeholder="recepients username" name="">
+  <button type="button" class="btn btn-outline-danger">Button</button>
+</div>
+
+button with dropdown
+
+<div class="input-group mb-3">
+  <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+  <ul class="dropdown-menu">
+    <li><a href="#">action</a></li>
+    <li><a href="#">actionaction</a></li>
+    <li><a href="#">actionactionaction</a></li>
+    <li><hr class="dropdown-divider" ></li>
+    <li><a href="#">action</a></li>
+
+  </ul>
+  <input type="text" class="form-control" name="">
+</div>
+
+<div class="input-group mb-3">
+  <button type="button" class="btn btn-outline-secondary " >Dropdown</button>
+
+  <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+    <span class="visually-hidden">Toggle-dropdown</span>
+  </button>
+
+  <ul class="dropdown-menu">
+    <li><a href="#">action</a></li>
+    <li><a href="#">actionaction</a></li>
+    <li><a href="#">actionactionaction</a></li>
+    <li><hr class="dropdown-divider" ></li>
+    <li><a href="#">action</a></li>
+
+  </ul>
+  <input type="text" class="form-control" name="">
+</div>
+  </form>
+</div>
+
+complex form with grid
+<div class="container">
+  <form class="row g-3">
+
+    <div class="col-md-6">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" name="email" id="email" class="form-control">
+    </div>
+
+    <div class="col-md-6">
+        <label for="password" class="form-label">Password</label>
+      <input type="password" name="password" id="password"class="form-control">
+      </div>
+    <div class="col-12">
+      <label for="address" class="form-label">Address</label>
+      <input type="text" name="address" id="address" class="form-control" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+        <label for="address2" class="form-label">Address 2</label>
+      <input type="text" name="address2" id="address2" class="form-control" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+       <label for="city" class="form-label">Email</label>
+      <input type="text" name="city" id="city" class="form-control">
+    </div>
+    <div class="col-md-4">
+       <label for="city" class="form-label">State</label>
+       <select class="form-select">
+         <option selected>choose..</option>
+         <option>1</option>
+
+       </select>
+    </div>
+    <div class="col-md-2">
+      <label for="Zip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="Zip">
+    </div>
+     <div class="col-12">
+       <input type="checkbox" class="form-check-input" name="" id="check">
+       <label for="check">check me out</label>
+     </div>
+    <div class="col-12">
+      <button type="button" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+</div>
+
+form validation
+
+<div class="container">
+  <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="f_name" class="form-label">First name</label>
+    <input type="text" class="form-control" id="f_name" placeholder="First Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+        Enter your first name.
+      </div>
+  </div>
+  <div class="col-md-4">
+    <label for="l_name" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="l_name" placeholder="Last Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+        Enter your last name.
+      </div>
+  </div>
+  <div class="col-md-4">
+    <label for="Username" class="form-label">Username</label>
+    <div class="input-group">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="Username"  required>
+       <div class="valid-feedback">
+      Looks good!
+    </div>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" id="city" required>
+     <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="state" class="form-label">State</label>
+    <select class="form-select" id="state" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+     <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="zip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="zip" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="Check" required>
+      <label class="form-check-label" for="Check">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+</div>
+
+    <!--js links-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
